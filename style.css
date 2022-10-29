@@ -1,0 +1,81 @@
+ /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+
+ body {
+     background-color: lightgreen;
+     color: black;
+     font-family: Tahoma;
+ }
+
+
+ .intro_text {
+     margin: 2;
+     margin-top: 30;
+     width: 100%;
+     border-top: 3px solid blue;
+     padding: 2px;
+     float: center;
+ }
+
+ img.gallery_image {
+     height: 30vh;
+     width: 100%;
+ }
+
+ .mail {
+     font-size: 200%;
+     text-decoration: none;
+ }
+
+ .center {
+     text-align: center;
+ }
+
+ .lista {
+     text-align: left;
+ }
+
+ .lista ul {
+     list-style-type: none;
+ }
+
+ .lista_body {
+     border: 2px black;
+ }
+
+ div {
+     border: 1px solid lightcoral;
+ }
+
+ @media only screen and (min-width: 768px) {
+     body {
+         background-color: #edf9ff;
+         color: black;
+         font-family: Tahoma;
+     }
+
+
+     .intro_text {
+         margin: auto;
+         width: 50%;
+         border-top: 3px solid black;
+         padding: 10px;
+     }
+
+     .gallery-cell {
+         padding: 10;
+         margin: auto;
+
+     }
+
+     img.gallery_image {
+         height: 30vh;
+         /*     width: 100% */
+     }
+
+     /* .lista_body {
+         width: 40%;
+     } */
+ }
