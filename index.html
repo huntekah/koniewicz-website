@@ -21,94 +21,264 @@
   </head>
 
   <body>
-    <center>
+    <div class="text-center d-md-none">
       <h1 id="one">Witaj w świecie terapii dźwiękiem!</h1>
-    </center>
-
-    <div class="main-gallery js-flickity"
-      data-flickity-options='{ "cellAlign": "center", "contain": true, "wrapAround": true  }' margin="30">
-      <div class="gallery-cell"><img class="gallery_image" src="images/zdj1.webp"></div>
-      <div class="gallery-cell"><img class="gallery_image" src="images/zdj2.jpg"></div>
-      <div class="gallery-cell"><img class="gallery_image" src="images/zdj3.jpg"></div>
-      <div class="gallery-cell"><img class="gallery_image" src="images/zdj4.jpg"></div>
-      <div class="gallery-cell"><img class="gallery_image" src="images/zdj5.jpg"></div>
-      <div class="gallery-cell"><img class="gallery_image" src="images/zdj6.webp"></div>
-      <div class="gallery-cell"><img class="gallery_image" src="images/zdj7.jpg"></div>
     </div>
 
-    <div class="intro_text">
-      <center>
-        <p>
-          Sounds of Love Healing jest projektem nakierowanym na przywracanie naturalnej harmonii w ciele i umyśle przy
-          wsparciu m.in. technik
-          muzykoterapeutycznych.
-
-          Używając instrumentów takich jak: misa tybetańska,kamerton, dzwonek koshi, kij
-          deszczowy, gong wietrzny, handpan, zostaniesz wprawiony w stan głębokiego odprężenia i relaksu, który
-          umożliwia
-          zainicjowanie naturalnych procesów zdrowienia w ciele.
-
-          Praca na poziomie myśli, uczuć, oraz przekonań porządkuje również sferę emocjonalną oraz mentalną.
-
-          Fizyczna podróż z ciałem odbywająca się na macie do yogi skomponowana z prawidłowymi technikami oddychania
-          pozwala zakotwiczyć świadomość w teraźniejszości domykając
-          proces głębokiego oraz wielopoziomowego odprężenia, który jest kluczowy dla Twojego samopoczucia.</p>
-      </center>
+    <div id="carouselCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img src="images/zdj1.webp" class="d-block gallery_image" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="podpis-karuzela">Sounds of Love Healing jest projektem nakierowanym na przywracanie naturalnej
+              harmonii w ciele i umyśle
+              przy
+              wsparciu m.in. technik muzykoterapeutycznych.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/zdj2.jpg" class="d-block gallery_image" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="podpis-karuzela">Używamy instrumentów takich jak: misa tybetańska,kamerton, dzwonek koshi, kij
+              deszczowy, gong wietrzny,
+              handpan.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/zdj3.jpg" class="d-block gallery_image" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="podpis-karuzela">Zostaniesz wprawiony w stan głębokiego odprężenia i relaksu, który umożliwia
+              zainicjowanie naturalnych
+              procesów zdrowienia w ciele.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/zdj4.jpg" class="d-block gallery_image" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="podpis-karuzela">Praca na poziomie myśli, uczuć, oraz przekonań porządkuje również sferę
+              emocjonalną oraz mentalną.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/zdj5.jpg" class="d-block gallery_image" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="podpis-karuzela">Fizyczna podróż z ciałem odbywająca się na macie do yogi skomponowana z
+              prawidłowymi technikami
+              oddychania.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/zdj6.webp" class="d-block gallery_image" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="podpis-karuzela">Pozwala zakotwiczyć świadomość w teraźniejszości domykając proces głębokiego oraz
+              wielopoziomowego
+              odprężenia,
+              który jest kluczowy dla Twojego samopoczucia.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/zdj7.jpg" class="d-block gallery_image" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="podpis-karuzela">Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8 col-12">
-          <div class="card lista_body">
-            <div class="card-body">
-              <div class="lista_naglowek center">
-                <h3 class="card-title">Już dziś zapraszam Cię na podróż w głąb siebie poprzez:</h3>
-              </div>
 
-              <div class="card-text lista">
-                <div class="row">
-                  <div class="col-lg-6 col-12">
-                    <ul>
-                      <li>indywidualne oraz grupowe sesje masażu dźwiękiem,</li>
-                      <li>indywidualne oraz grupowe sesje yogi,</li>
-                      <li>koncerty healingowe,</li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-6 col-12">
-                    <ul>
-                      <li>warsztaty z różnych technik oddechowych,</li>
-                      <li>autorskie medytacje prowadzone,</li>
-                      <li>ćwiczenia mindfulness,</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="stopka">
-                <div class="container text-center">
+
+    <div class="d-md-none">
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 col-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Sounds of Love Healing</h3>
+
+                <div class="card-text">
                   <div class="row">
-                    <div class="col-md-0"></div>
-                    <div class="col-md-6 col-12">
-                      <b>Po więcej informacji zapraszam do kontaktu</b>
+                    <div class="col-12">
+                      jest projektem nakierowanym na przywracanie naturalnej harmonii w ciele i umyśle przy
+                      wsparciu m.in. technik
+                      muzykoterapeutycznych.
                     </div>
-                    <div class="col-md-6 col-12">
-                      <button type="button" class="btn btn-primary mail" onclick="sendEmail();">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                          class="bi bi-envelope-paper-heart" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd"
-                            d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1.133l.941.502A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765L2 3.133V2Zm0 2.267-.47.25A1 1 0 0 0 1 5.4v.817l1 .6v-2.55Zm1 3.15 3.75 2.25L8 8.917l1.25.75L13 7.417V2a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v5.417Zm11-.6 1-.6V5.4a1 1 0 0 0-.53-.882L14 4.267v2.55ZM8 2.982C9.664 1.309 13.825 4.236 8 8 2.175 4.236 6.336 1.31 8 2.982Zm7 4.401-4.778 2.867L15 13.117V7.383Zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734Z">
-                          </path>
-                        </svg>
-                        soulhealing.3333@gmail.com
-                      </button>
+                    <div class="col-12">
+
+                      Używając instrumentów takich jak: misa tybetańska,kamerton, dzwonek koshi, kij
+                      deszczowy, gong wietrzny, handpan, zostaniesz wprawiony w stan głębokiego odprężenia i relaksu,
+                      który
+                      umożliwia
+                      zainicjowanie naturalnych procesów zdrowienia w ciele.
                     </div>
-                    <div class="col-md-0"></div>
+                    <div class="col-12">
+                      Praca na poziomie myśli, uczuć, oraz przekonań porządkuje również sferę emocjonalną oraz mentalną.
+                    </div>
+                    <div class="col-12">
+
+
+                      Fizyczna podróż z ciałem odbywająca się na macie do yogi skomponowana z prawidłowymi technikami
+                      oddychania
+                    </div>
+                    <div class="col-12">
+
+
+                      pozwala zakotwiczyć świadomość w teraźniejszości domykając
+                      proces głębokiego oraz wielopoziomowego odprężenia, który jest kluczowy dla Twojego samopoczucia.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="col-md-2"></div>
         </div>
-        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+    <div class="d-lg-none">
+
+      <div class="lista_body">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 col-12">
+              <div class="card">
+                <div class="card-body">
+                  <div class="lista_naglowek center">
+                    <h3 class="card-title">Już dziś zapraszam Cię na podróż w głąb siebie poprzez:</h3>
+                  </div>
+
+                  <div class="card-text lista">
+                    <div class="row">
+                      <div class="col-lg-6 col-12">
+                        <ul>
+                          <li>indywidualne oraz grupowe <b>sesje masażu dźwiękiem</b>,</li>
+                          <li>indywidualne oraz grupowe <b>sesje yogi</b>,</li>
+                          <li>koncerty healingowe,</li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6 col-12">
+                        <ul>
+                          <li>warsztaty z różnych <b>technik oddechowych</b>,</li>
+                          <li>autorskie medytacje prowadzone,</li>
+                          <li>ćwiczenia <b>mindfulness</b>,</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="container text-center d-none d-lg-block">
+      <div class="row row-of-cards">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/Sound-Massage-Lifestyle.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Masaż dźwiękiem</h5>
+              <p class="card-text">indywidualne oraz grupowe</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/yoga_session.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sesje yogi</h5>
+              <p class="card-text">indywidualne oraz grupowe</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/healing_concert.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">koncerty healingowe</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-of-cards">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/breathing.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Oddychanie</h5>
+              <p class="card-text">warsztaty z różnych technik</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/meditaion.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Medytacja</h5>
+              <p class="card-text">autorskie medytacje prowadzone</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/mindfullness.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mindfullness</h5>
+              <p class="card-text">ćwiczenia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stopka">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-0"></div>
+          <div class="col-lg-6 col-12">
+            <b>Po więcej informacji zapraszam do kontaktu</b>
+          </div>
+          <div class="col-lg-6 col-12">
+            <button type="button" class="btn btn-primary mail" onclick="sendEmail();">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                class="bi bi-envelope-paper-heart" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1.133l.941.502A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765L2 3.133V2Zm0 2.267-.47.25A1 1 0 0 0 1 5.4v.817l1 .6v-2.55Zm1 3.15 3.75 2.25L8 8.917l1.25.75L13 7.417V2a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v5.417Zm11-.6 1-.6V5.4a1 1 0 0 0-.53-.882L14 4.267v2.55ZM8 2.982C9.664 1.309 13.825 4.236 8 8 2.175 4.236 6.336 1.31 8 2.982Zm7 4.401-4.778 2.867L15 13.117V7.383Zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734Z">
+                </path>
+              </svg>
+              soulhealing.3333@gmail.com
+            </button>
+          </div>
+          <div class="col-lg-0"></div>
+        </div>
       </div>
     </div>
 

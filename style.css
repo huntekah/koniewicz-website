@@ -4,7 +4,7 @@
 
 
  body {
-     background-color: lightgreen;
+     /* background-color: lightgreen; */
      color: black;
      font-family: Tahoma;
  }
@@ -19,9 +19,13 @@
      float: center;
  }
 
- img.gallery_image {
-     height: 30vh;
+ .gallery_image {
+     /* height: 30vh; */
+     object-fit: cover;
+     max-height: 30vh;
      width: 100%;
+     height: auto;
+     /* width: 100%; */
  }
 
  .mail {
@@ -47,11 +51,25 @@
 
  .lista_body {
      border: 2px black;
+     padding-top: 3em;
  }
 
  /* div {
      border: 1px solid lightcoral;
  } */
+
+ .podpis-karuzela {
+     background-color: #0000006c;
+     font-size: 150%;
+ }
+
+ /* #carouselCaptions {
+     padding-bottom: 3em;
+ } */
+
+ .stopka {
+     padding-top: 10px;
+ }
 
  @media only screen and (min-width: 768px) {
      body {
@@ -74,12 +92,17 @@
 
      }
 
-     img.gallery_image {
+     /* img.gallery_image {
          height: 30vh;
          /*     width: 100% */
+     .row-of-cards {
+         padding-bottom: 20px;
+         padding-top: 10px;
      }
+ }
 
-     /* .lista_body {
+ */
+ /* .lista_body {
          width: 40%;
      } */
  }
